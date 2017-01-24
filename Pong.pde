@@ -1,4 +1,4 @@
-//Pong Clone v0.2
+//Pong Clone v0.44
 //by Kasper Kristensen 09-03-2016
 
 screen currentScreen;
@@ -27,7 +27,7 @@ void draw() {
   
   //clear screen
   background(0);
-  stroke(255);
+  stroke(200);
   
   currentScreen.draw();
 }

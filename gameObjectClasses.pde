@@ -28,21 +28,19 @@ public class ball extends gameObject  {
     x = width/2;
     y = height/2;
     
-    speed = 100;
+    speed = 300;
+
     direction = random(360);
     velocity = new PVector(cos(direction), -sin(direction));
   }
   
-  public void pitchBall() {
-<<<<<<< HEAD
-    x = 150;
-    y = 100;
-=======
+  public void pitchBall() {    
     x = width/2;
     y = height/2;
->>>>>>> origin/master
+
     direction = random(360);
-    speed = 100;
+    speed = 300;
+
   }
   
   public boolean collision(){
